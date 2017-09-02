@@ -20,4 +20,9 @@
    background-attachment: fixed;
    background-position: center;
    background-size: 1600px 1100px;
+   margin-right: 0 auto;
+ }
+
+ li {
+   font-size: 18px;
  }
