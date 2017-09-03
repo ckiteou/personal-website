@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>PersonalWebsite</title>
+    <title>Costas Kiteou</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -11,17 +11,19 @@
 
   <body>
     <header>
-      <div id="custom-bootstrap-menu" class="navbar navbar-default" role="navigation">
+      <div id="custom-bootstrap-menu" class="navbar" role="navigation">
           <div class="container-fluid">
               <div class="collapse navbar-collapse navbar-menubuilder">
                   <ul class="nav navbar-nav navbar-left">
-                      <li><a href="/">Home</a>
+                    <li><a class="nav-link" href="/">Home</a>
                       </li>
-                      <li><a href="/products">Portfolio</a>
+                      <li><a class="nav-link" href="/about">About</a>
                       </li>
-                      <li><a href="/about-us">Photos</a>
+                      <li><a class="nav-link" href="/products">Portfolio</a>
                       </li>
-                      <li><a href="/contact">Contact</a>
+                      <li><a class="nav-link" href="/about-us">Resume</a>
+                      </li>
+                      <li><a class="nav-link" href="/contact">Contact</a>
                       </li>
                   </ul>
               </div>

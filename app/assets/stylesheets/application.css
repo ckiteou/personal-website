@@ -14,14 +14,13 @@
  *= require_self
  */
 
- body {
-   background-image: url("https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg");
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center;
-   background-size: 1600px 1100px;
-   margin-right: 0 auto;
- }
+body {
+  background: url("https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
  li {
    font-size: 18px;
