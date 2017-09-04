@@ -1,6 +1,14 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.welcome-img {
+  background: url("https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .navbar {
   background-color: rgba(255,255,255,0.25);
 }
@@ -29,5 +37,5 @@
   position: relative;
   margin-top: 60px;
   width: 300px;
-  margin-left: 650px;
+  margin-left: 550px;
 }
