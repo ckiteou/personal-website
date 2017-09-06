@@ -1,59 +1,97 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 .container {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
 }
 
 .flight {
   background: url("flight_cruise.png") no-repeat center center;
   background-size: cover;
-  height: 900px;
+  height: 800px;
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
-  z-index: -1;
 }
 
 .main {
-  top: 400px;
+  top: 300px;
   position: relative;
-  // top: 50%;
-  // left: 0;
-  // right: 0;
-  justify-content: center;
   text-align: center;
 }
 
 .main h2 {
+  font-family: serif;
   color: white;
   font-weight: 110;
-  font-size: 24px;
+  font-size: 26px;
   font-style: italic;
-  margin-top: 0;
+  text-align: center;
+  margin: auto;;
   width: 900px;
-  // justify-content: center;
-  // text-align: center;
-  // vertical-align: center;
 }
 
 .main h1 {
-  // position: relative;
   color: white;
   font-weight: 500;
   font-size: 70px;
-  margin-top: 0;
+  text-align: center;
+  margin: auto;
   text-transform: uppercase;
   width: 900px;
-  // text-align: center;
-  // vertical-align: center;
 }
 
-.x {
-  padding-top: 1500px;
+.about {
+  position: relative;
+  top: 708px;
+  height: 600px;
+  background-color: #e6e6e6;
+  width: 100% !important;
+}
 
+.about-header {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.about-body {
+  margin: auto;
+  width: 1000px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.about-quote {
+  margin: auto;
+  width: 500px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  font-family: serif;
+}
+
+.about-quote-subject {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  font-family: serif;
+}
+
+.photos {
+  border: none !important;
+  position: relative;
+  top: 708px;
+  height: 385px;
+}
+
+.photo {
+  float: left;
+  width: 526.6px;
+  height: 404px;
 }
