@@ -29,7 +29,7 @@
   font-size: 26px;
   font-style: italic;
   text-align: center;
-  margin: auto;;
+  margin: auto;
   width: 900px;
 }
 
@@ -50,11 +50,18 @@
   background-color: #e6e6e6;
 }
 
+.about-contact {
+  top: -80px;
+  position: relative;
+  height: 500px;
+  background-color: white;
+}
+
 .about-header {
   width: 600px;
   margin: auto;
   vertical-align: text-top;
-  padding-top: 70px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -62,7 +69,15 @@
   width: 600px;
   margin: auto;
   vertical-align: text-top;
-  padding-top: 120px;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.about-header3 {
+  width: 600px;
+  margin: auto;
+  vertical-align: text-top;
+  padding-top: 80px;
   text-align: center;
 }
 
@@ -73,6 +88,16 @@
   text-align: center;
   font-size: 18px;
   font-family: serif;
+}
+
+.about-body-contact {
+  padding-top: 20px;
+  margin: auto;
+  width: 700px;
+  text-align: center;
+  font-size: 18px;
+  font-family: serif;
+  // font-style: italic;
 }
 
 .about-quote {
@@ -105,9 +130,35 @@
   float: left;
   width: 33.33%;
   height: auto;
+  text-align: center;
 }
 
 .photo {
   width: 100%;
   height: 100%;
+}
+
+.contact-me-link-container {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.contact-me-link {
+  text-decoration: none !important;
+  display: inline-block;
+  color: black;
+  font-size: 25px;
+  padding: 7px 55px 7px 55px;
+}
+
+.contact-me-link-container:hover,
+.contact-me-link-container:focus,
+.contact-me-link:hover,
+.contact-me-link:focus  {
+  background-color: black;
+  color: white;
 }
