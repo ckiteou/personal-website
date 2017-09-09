@@ -3,23 +3,24 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .container-fluid {
-  // width: 100% !important;
-  // max-width: none !important;
   padding: 0 !important;
 }
 
 .flight {
   background: url("flight_cruise.png") no-repeat center center;
   position: relative;
-  background-size: cover;
-  height: 800px;
   top: -80px;
+  background-size: cover;
+  height: 810px;
+  filter: brightness(60%);
 }
 
 .main {
-  top: 300px;
-  position: relative;
+  top: 340px;
+  position: absolute;
   text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .main h2 {
@@ -43,14 +44,42 @@
   width: 900px;
 }
 
-.about {
+.about-a-few-interesting-facts-about-me {
   top: -80px;
   position: relative;
-  height: 500px;
+  height: 350px;
   background-color: #e6e6e6;
 }
 
+.about-a-little-bit-more-about-me {
+  top: -80px;
+  position: relative;
+  height: 480px;
+  background-color: white;
+}
+
+.about-aviation {
+  top: -80px;
+  position: relative;
+  height: 440px;
+  background-color: white;
+}
+
+.about-travelling {
+  top: -80px;
+  position: relative;
+  height: 520px;
+  background-color: white;
+}
+
 .about-contact {
+  top: -80px;
+  position: relative;
+  height: 390px;
+  background-color: #e6e6e6;
+}
+
+.about-future {
   top: -80px;
   position: relative;
   height: 500px;
@@ -58,36 +87,25 @@
 }
 
 .about-header {
-  width: 600px;
+  width: 700px;
   margin: auto;
   vertical-align: text-top;
   padding-top: 50px;
   text-align: center;
-}
-
-.about-header2 {
-  width: 600px;
-  margin: auto;
-  vertical-align: text-top;
-  padding-top: 80px;
-  text-align: center;
-}
-
-.about-header3 {
-  width: 600px;
-  margin: auto;
-  vertical-align: text-top;
-  padding-top: 80px;
-  text-align: center;
+  font-size: 46px;
+  font-family: "Palatino Linotype";
 }
 
 .about-body {
-  padding-top: 20px;
+  padding-top: 30px;
   margin: auto;
-  width: 1000px;
+  width: 800px;
   text-align: center;
   font-size: 18px;
-  font-family: serif;
+  font-family: Verdana;
+  font-weight: 100;
+  line-height: 200%;
+  font-family: "Palatino Linotype";
 }
 
 .about-body-contact {
@@ -97,7 +115,6 @@
   text-align: center;
   font-size: 18px;
   font-family: serif;
-  // font-style: italic;
 }
 
 .about-quote {
@@ -108,6 +125,7 @@
   font-size: 16px;
   font-style: italic;
   font-family: serif;
+  line-height: 200%;
 }
 
 .about-quote-subject {
@@ -159,6 +177,31 @@
 .contact-me-link-container:focus,
 .contact-me-link:hover,
 .contact-me-link:focus  {
+  background-color: black;
+  color: white;
+}
+
+.more-photos-link-container {
+  width: 260px;
+  height: 50px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.more-photos-link {
+  text-decoration: none !important;
+  display: inline-block;
+  color: black;
+  font-size: 25px;
+  padding: 7px 56px 7px 57px;
+}
+
+.more-photos-link-container:hover,
+.more-photos-link-container:focus,
+.more-photos-link:hover,
+.more-photos-link:focus  {
   background-color: black;
   color: white;
 }
