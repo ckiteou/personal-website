@@ -2,13 +2,22 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.welcome-img {
-  background: url("https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg") no-repeat center center;
+.welcome-header {
   position: relative;
   top: -120px;
-  background-size: cover;
-  height: 840px;
+  overflow: hidden;
+}
+
+.welcome-img {
+  float: left;
+  width: 100%;
+  height: auto;
   filter: brightness(30%);
+}
+
+.welcome-photo {
+  width: 100%;
+  height: 100%;
 }
 
 .navbar {
@@ -17,7 +26,6 @@
 }
 
 .navbar .navbar-nav > li > a {
-  background-color:transparent !important;
   position: relative;
   margin-top: 20px;
   margin-right: 15px;
@@ -33,11 +41,10 @@
 
 .welcome-text-box {
   position: absolute;
-  margin-top: -660px;
-  width: 1000px;
   text-align: center;
   left: 50%;
   transform: translate(-50%, 0);
+  top: 30%;
 }
 
 .welcome-text-header {
@@ -46,7 +53,6 @@
   font-weight: 110;
   font-size: 26px;
   font-style: italic;
-  text-align: center;
   margin: auto;
   width: 900px;
   margin-bottom: 15px;
@@ -56,8 +62,6 @@
   color: white;
   font-weight: 500;
   font-size: 70px;
-  text-align: center;
-  margin: auto;
   text-transform: uppercase;
   width: 900px;
 }
@@ -67,7 +71,6 @@
   top: -120px;
   background-color: #e6e6e6;
   height: 590px;
-  top: -120px;
 }
 
 .about-me-header {
