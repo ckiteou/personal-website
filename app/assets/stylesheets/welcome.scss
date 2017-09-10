@@ -66,6 +66,12 @@
   text-transform: uppercase;
   width: 900px;
 }
+.about-me-photo-container {
+  position: relative;
+  top: -120px;
+  background-color: white;
+  height: 590px;
+}
 
 .about-me {
   position: relative;
@@ -198,14 +204,18 @@
 }
 
 .footer-navbar .navbar-nav {
-  margin: auto;
+  display: inline-block;
+  float: none;
 }
 
-.footer-navbar .navbar-nav > li > a {
+.footer-navbar .navbar-collapse {
+  text-align: center;
+}
+
+.footer-navbar .nav.navbar-nav > li > a {
   background-color:transparent !important;
   position: relative;
   top: 140px;
-  left: 500px;
   margin-right: 15px;
   color: white;
   font-size: 25px;
