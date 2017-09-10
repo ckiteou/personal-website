@@ -3,41 +3,129 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .welcome-img {
-  background: url("https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg") no-repeat center center;
+  position: relative;
+  top: -120px;
   background-size: cover;
+  height: 840px;
+  filter: brightness(30%);
 }
 
 .navbar {
-  background-color: rgba(255,255,255,0.25);
-  z-index: 1;
+  margin-left: 20px;
+  z-index: 1 !important;
 }
 
 .navbar .navbar-nav > li > a {
   background-color:transparent !important;
-  color: black;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 15px;
+  color: white;
   font-size: 25px;
-  font-weight: bold;
-}
-.navbar .navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus {
-    color: white;
+  font-weight: 100;
 }
 
-.welcome-text {
-  font-size: 25px;
-  color: white;
-  position: right;
-  width: 700px;
-  font-style: italic;
-  text-shadow: 1px 1px black;
+.navbar .navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    filter: brightness(60%);
 }
 
 .welcome-text-box {
+  position: absolute;
+  margin-top: -660px;
+  width: 1000px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.welcome-text-header {
+  font-family: serif;
+  color: white;
+  font-weight: 110;
+  font-size: 26px;
+  font-style: italic;
+  text-align: center;
+  margin: auto;
+  width: 900px;
+  margin-bottom: 15px;
+}
+
+.welcome-text {
+  color: white;
+  font-weight: 500;
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  width: 900px;
+}
+
+.about-me {
   position: relative;
-  margin-top: 60px;
-  width: 300px;
-  margin-left: 850px;
+  top: -120px;
+  background-color: #e6e6e6;
+  height: 570px;
+  margin-bottom: -120px;
+}
+
+.about-me-header {
+  width: 1000px;
+  margin: auto;
+  vertical-align: text-top;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 46px;
+  font-family: "Palatino Linotype";
+}
+
+.about-me-body {
+  padding-top: 30px;
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Verdana;
+  font-weight: 100;
+  line-height: 200%;
+  font-family: "Palatino Linotype";
+}
+
+.footer-container {
+  position: relative;
+  height: 300px;
+  background-color: black;
+}
+
+.footer-heading {
+  position: relative;
+  top: 70px;
+  color: white;
+  font-weight: 100;
+  font-size: 44px;
+  text-align: center;
+  margin: auto;
+  width: 900px;
+  font-family: "Times New Roman";
+}
+
+.footer-navbar .navbar-nav {
+  margin: auto;
+}
+
+.footer-navbar .navbar-nav > li > a {
+  background-color:transparent !important;
+  position: relative;
+  top: 140px;
+  left: 500px;
+  margin-right: 15px;
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.footer-navbar .navbar-nav > li > a:hover,
+.footer-navbar-nav > li > a:focus {
+    filter: brightness(60%);
 }
