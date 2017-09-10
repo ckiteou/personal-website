@@ -66,11 +66,57 @@
   text-transform: uppercase;
   width: 900px;
 }
-.about-me-photo-container {
+.welcome-about-me-container {
+  box-sizing: border-box;
   position: relative;
   top: -120px;
   background-color: white;
   height: 590px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+.welcome-about-me-photo-container {
+  border: 1px dotted black;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 45%;
+  filter: brightness(90%);
+}
+
+.welcome-about-me-photo {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.welcome-about-me-text {
+  position: relative;
+  display: inline-block;
+  margin: 2%;
+  width: 45%;
+  height: 90%;
+}
+
+.welcome-about-me-header {
+  width: 600px;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 46px;
+  font-family: "Palatino Linotype";
+}
+
+.welcome-about-me-body {
+  padding-top: 20px;
+  width: 560px;
+  text-align: left;
+  font-size: 18px;
+  font-family: Verdana;
+  font-weight: 100;
+  line-height: 200%;
+  font-family: "Palatino Linotype";
 }
 
 .about-me {
