@@ -72,15 +72,14 @@
   top: -120px;
   background-color: white;
   height: 590px;
-  width: 100%;
   margin: 20px auto;
   padding: 20px 0px;
+  text-align: center;
 }
 
 .welcome-about-me-photo-container {
   border: 1px dotted black;
   display: inline-block;
-  // margin-left: 30px;
   width: 45%;
   filter: brightness(90%);
 }
@@ -92,24 +91,22 @@
 }
 
 .welcome-about-me-text {
-  display: inline-block;
   position: relative;
-  top: 50px;
-  margin: 3%;
+  top: -80px;
+  display: inline-block;
+  margin: 2%;
   width: 45%;
-  height: 90%;
+  height: 100%;
 }
 
 .welcome-about-me-header {
   text-align: left;
-  vertical-align: text-top;
   font-size: 46px;
   font-family: "Palatino Linotype";
 }
 
 .welcome-about-me-body {
   padding-top: 20px;
-  width: 600px;
   text-align: left;
   font-size: 17px;
   font-family: Verdana;
