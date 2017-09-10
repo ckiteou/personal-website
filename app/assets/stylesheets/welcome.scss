@@ -67,19 +67,20 @@
   width: 900px;
 }
 .welcome-about-me-container {
-  box-sizing: border-box;
   position: relative;
   top: -120px;
   background-color: white;
-  height: 590px;
-  margin: 20px auto;
-  padding: 20px 0px;
-  text-align: center;
+  height: 600px;
+  margin: 20px;
+  // text-align: center;
 }
 
 .welcome-about-me-photo-container {
   border: 1px dotted black;
-  display: inline-block;
+  position: relative;
+  left: 60px;
+  top: 40px;
+  float: left;
   width: 45%;
   filter: brightness(90%);
 }
@@ -92,11 +93,12 @@
 
 .welcome-about-me-text {
   position: relative;
-  top: -80px;
-  display: inline-block;
-  margin: 2%;
+  top: 140px;
+  left: 20px;
+  float: left;
+  margin: 20px;
   width: 45%;
-  height: 100%;
+  height: 40%;
 }
 
 .welcome-about-me-header {
