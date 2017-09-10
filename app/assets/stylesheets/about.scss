@@ -1,7 +1,6 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 .container-fluid {
   padding: 0 !important;
 }
@@ -9,7 +8,7 @@
 .header-img {
   background: url("flight_cruise.png") no-repeat center center;
   position: relative;
-  top: -80px;
+  top: -100px;
   background-size: cover;
   height: 810px;
   filter: brightness(60%);
@@ -32,6 +31,7 @@
   text-align: center;
   margin: auto;
   width: 900px;
+  margin-bottom: 15px;
 }
 
 .about-header-body {
@@ -45,42 +45,43 @@
 }
 
 .about-a-few-interesting-facts-about-me {
-  top: -80px;
+  top: -100px;
   position: relative;
   height: 350px;
   background-color: #e6e6e6;
 }
 
 .about-a-little-bit-more-about-me {
-  top: -80px;
+  top: -100px;
   position: relative;
   height: 480px;
   background-color: white;
 }
 
 .about-aviation {
-  top: -80px;
+  top: -100px;
   position: relative;
   height: 440px;
   background-color: white;
 }
 
 .about-travelling {
-  top: -80px;
+  top: -100px;
   position: relative;
   height: 520px;
   background-color: white;
 }
 
 .about-contact {
-  top: -80px;
+  top: -100px;
   position: relative;
   height: 390px;
   background-color: #e6e6e6;
+  margin-bottom: -100px;
 }
 
 .about-future {
-  top: -80px;
+  top: -100px;
   position: relative;
   height: 500px;
   background-color: white;
@@ -137,7 +138,7 @@
 }
 
 .photos {
-  top: -80px;
+  top: -100px;
   position: relative;
   height: auto;
   overflow: hidden;
