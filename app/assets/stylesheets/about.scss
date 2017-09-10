@@ -6,7 +6,7 @@
   padding: 0 !important;
 }
 
-.flight {
+.header-img {
   background: url("flight_cruise.png") no-repeat center center;
   position: relative;
   top: -80px;
@@ -15,7 +15,7 @@
   filter: brightness(60%);
 }
 
-.main {
+.about-header-container {
   top: 340px;
   position: absolute;
   text-align: center;
@@ -23,7 +23,7 @@
   transform: translate(-50%, 0);
 }
 
-.main h2 {
+.about-header-header {
   font-family: serif;
   color: white;
   font-weight: 110;
@@ -34,7 +34,7 @@
   width: 900px;
 }
 
-.main h1 {
+.about-header-body {
   color: white;
   font-weight: 500;
   font-size: 70px;
