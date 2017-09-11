@@ -70,17 +70,16 @@
   position: relative;
   top: -120px;
   background-color: white;
-  height: 600px;
-  margin: 20px;
+  overflow: hidden;
+  padding: 20px;
 }
 
 .welcome-about-me-photo-container {
   border: 1px dotted black;
   position: relative;
-  left: 60px;
-  top: 40px;
-  float: left;
+  float: right;
   width: 45%;
+  height: auto;
   filter: brightness(90%);
 }
 
@@ -93,11 +92,10 @@
 .welcome-about-me-text {
   position: relative;
   top: 140px;
-  left: 20px;
+  left: 40px;
   float: left;
-  margin: 20px;
   width: 45%;
-  height: 40%;
+  height: auto;
 }
 
 .welcome-about-me-header {
