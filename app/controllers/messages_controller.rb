@@ -1,23 +1,22 @@
 class MessagesController < ApplicationController
 
-  def new
-  @message = Message.new
-  end
-
-  def create
-    @message = Message.new(message_params)
-    if @message.valid?
-      MessageMailer.new_message(@message).deliver
-      redirect_to contact_path, notice: "Your messages has been sent."
-    else
-      flash[:alert] = "An error occurred while delivering this message."
-      render :new
+    def create
+      @message = Message.new(message_params)
+      if @message.valid?
+        MessageMailer.new_message(@message).deliver
+        @message = Message.new
+        redirect_to contact_index_path, notice: "Your message has been sent."
+      else
+        flash[:alert] = "An error occurred while delivering this message."
+        @message = Message.new
+        render 'contact/index'
+      end
     end
-  end
 
-  private
+    private
 
-  def message_params
-    params.require(:message).permit(:first_name, :surname, :email, :content)
-  end
+    def message_params
+      params.require(:message).permit(:first_name, :surname, :email, :content)
+    end
+
 end
