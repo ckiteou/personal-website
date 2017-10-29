@@ -11,10 +11,12 @@ module PersonalWebsite
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 
+    config.action_mailer.delivery_method = :sendmail
+
     config.action_mailer.sendmail_settings = {
       address: "smtp.gmail.com",
       port: 587,
-      domain: "personal-website.com",
+      domain: "gmail.com",
       user_name: "ckiteou22@gmail.com",
       password: "loggers0051",
       authentication: :plain,
