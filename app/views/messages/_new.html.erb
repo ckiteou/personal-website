@@ -1,31 +1,38 @@
 <%= form_for @message, url: contact_index_path do |message_form| %>
-  <fieldset>
-    <div class="name_field">
-      <div class="first_name_field">
-        First Name <br>
-        <%= message_form.text_field :first_name %>
-      </div>
+  <fieldset class="fields">
 
+    <div class="first_name">
+      <label for="first_name_label">First Name *</label> <br>
+      <div class="first_name_field">
+         <%= message_form.text_field :first_name %>
+      </div>
+    </div>
+
+    <div class="surname">
+      <label for="surname_label">Surname *</label> <br>
       <div class="surname_field">
-        Surname <br>
         <%= message_form.text_field :surname %>
       </div>
     </div>
 
-    <div class="email_field">
-      Email <br>
-      <%= message_form.email_field :email %>
+    <div class="email">
+      <label for="email_label">Email address *</label> <br>
+      <div class="email_field">
+        <%= message_form.email_field :email %>
+      </div>
     </div>
 
-    <div class="message_field">
-      Message <br>
-      <%= message_form.text_area :content %>
+    <div class="message">
+      <label for="message_label">Message *</label> <br>
+      <div class="message_field">
+          <%= message_form.text_area :content %>
+      </div>
     </div>
   </fieldset>
 
   <fieldset>
-  <div class="send_field">
-    <%= message_form.submit "Send" %>
-  </div>
+    <div class="send_field">
+      <%= message_form.submit "Send message" %>
+    </div>
   </fieldset>
 <% end %>

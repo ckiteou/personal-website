@@ -2,6 +2,90 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.name {
-  
+.fields {
+  font-size: 20px;
+}
+
+label {
+  all: unset;
+  color: #393939;
+}
+
+.first_name {
+  float: left;
+}
+
+.first_name_field input {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 117%;
+}
+
+.surname {
+  float: left;
+  margin-left: 50px;
+}
+
+.surname_field input {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 117%;
+}
+
+.email {
+  margin-top: 100px;
+}
+
+.email_field input {
+  box-sizing: border-box;
+  width: 104%;
+  padding: 10px;
+}
+
+.fields {
+  margin-top: 40px;
+}
+
+.message {
+  margin-top: 12px;
+}
+
+.message_field textarea {
+  box-sizing: border-box;
+  width: 104%;
+  height: 150%;
+  padding: 10px;
+  background-color: #F8F8F8;
+  border: 1px solid #CDCDCD;
+  height: 120px;
+  resize: none;
+}
+
+input {
+  all: unset;
+  background-color: #F8F8F8;
+  border: 1px solid #CDCDCD;
+}
+
+.send_field input {
+  all: unset;
+  color: black;
+  font-size: 25px;
+  padding: 7px;
+  border: 1px solid black;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.send_field input:hover,
+.send_field input:focus  {
+  background-color: black;
+  color: white;
+}
+
+input:focus,
+textarea:focus {
+  background-color: white;
 }
