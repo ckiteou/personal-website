@@ -11,11 +11,10 @@ Rails.application.configure do
     authentication: :plain,
     enable_starttls_auto: true
   }
-  config.action_mailer.default_url_options = { :host => 'website-ckiteou-staging.heroku.com' }
+  config.action_mailer.default_url_options = { :host => 'website-ckiteou-staging.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default :charset => "utf-8"
 
   config.action_mailer.default_url_options = {
     host: "gmail.com"
