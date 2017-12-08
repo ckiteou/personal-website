@@ -1,9 +1,15 @@
 // Place all the styles related to the Contact controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.contact-header {
+
+.contact-container-main {
   position: relative;
   top: -120px;
+  margin-bottom: -120px;
+}
+
+.contact-header {
+  position: relative;
   overflow: hidden;
 }
 
@@ -47,7 +53,6 @@
 }
 .contact-me-container {
   position: relative;
-  top: -120px;
   background-color: white;
   overflow: hidden;
   padding: 20px 60px 20px 60px;
@@ -55,6 +60,7 @@
 }
 
 .contact-me-field-container  {
+  max-width: 700px;
   margin-top: 70px;
   padding-left: 40px;
   padding-right: 40px;
@@ -126,13 +132,7 @@
   text-decoration: underline
 }
 
-.another-container {
-  position: relative;
-  top: -120px;
-  margin-bottom: -120px;
-  background-color: grey;
-  overflow: hidden;
-  // padding: 20px 60px 20px 60px;
+.city-of-london-img-container {
   height: auto;
 }
 

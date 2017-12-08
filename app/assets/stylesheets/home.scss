@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// html {
+//   min-width: 1400px;
+// }
+
 .home-container-main {
   position: relative;
   top: -120px;
@@ -46,11 +50,24 @@
   width: 900px;
 }
 
+.another-div {
+  display: inline;
+}
+
+.home-about-me-container {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  height: auto;
+  min-width: 400px;
+}
+
 .home-about-me-photo-container {
   border: 1px dotted black;
   float: right;
   width: 50%;
-  height: 100%;
+  height: auto;
   filter: brightness(90%);
 }
 
@@ -60,19 +77,9 @@
   height: 100%;
 }
 
-.home-about-me-container {
-  position: relative;
-  // top: -120px;
-  background-color: white;
-  overflow: hidden;
-  padding: 20px;
-  height: 600px;
-}
-
 .home-about-me-text {
-  display: inline-block;
-  margin-top: 100px;
-  padding: 40px;
+  position: relative;
+  padding: 120px 40px 40px 40px;
   float: left;
   width: 50%;
   height: auto;
@@ -96,7 +103,6 @@
 
 .about-me {
   position: relative;
-  // top: -120px;
   background-color: #e6e6e6;
   height: 590px;
 }
@@ -126,14 +132,12 @@
 .home-photos1 {
   position: relative;
   overflow: hidden;
-  // top: -120px;
   padding: 2.5px 2.5px 0px 2.5px;
 }
 
 .home-photos2 {
   position: relative;
   overflow: hidden;
-  // top: -120px;
   padding: 0px 2.5px 2.5px 2.5px;
 }
 
@@ -153,7 +157,6 @@
 
 .home-resume {
   position: relative;
-  // top: -120px;
   background-color: #e6e6e6;
   height: 480px;
   margin-bottom: -120px;
@@ -204,46 +207,4 @@
 .home-resume-link:focus  {
   background-color: black;
   color: white;
-}
-
-.footer-container {
-  position: relative;
-  height: 300px;
-  background-color: black;
-}
-
-.footer-heading {
-  position: relative;
-  top: 70px;
-  color: white;
-  font-weight: 100;
-  font-size: 44px;
-  text-align: center;
-  margin: auto;
-  width: 900px;
-  font-family: "Times New Roman";
-}
-
-.footer-navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-}
-
-.footer-navbar .navbar-collapse {
-  text-align: center;
-}
-
-.footer-navbar .nav.navbar-nav > li > a {
-  background-color:transparent !important;
-  position: relative;
-  top: 140px;
-  margin-right: 15px;
-  color: white;
-  font-size: 25px;
-  font-weight: 100;
-}
-
-.footer-navbar .navbar-nav > li > a:hover,
-.footer-navbar-nav > li > a:focus {
-    filter: brightness(60%);
 }
