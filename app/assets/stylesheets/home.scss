@@ -2,45 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.welcome-header {
+.home-container-main {
   position: relative;
   top: -120px;
-  overflow: hidden;
+  margin-bottom: -120px
 }
 
-.welcome-img {
-  float: left;
+.home-header {
+  position: relative;
+}
+
+.home-photo-header {
+  position: relative;
   width: 100%;
   height: auto;
   filter: brightness(30%);
 }
 
-.welcome-photo {
-  width: 100%;
-  height: 100%;
-}
-
-.navbar {
-  margin-left: 20px;
-  z-index: 1 !important;
-}
-
-.navbar .navbar-nav > li > a {
-  background-color: transparent !important;
-  position: relative;
-  margin-top: 20px;
-  margin-right: 15px;
-  color: white;
-  font-size: 25px;
-  font-weight: 100;
-}
-
-.navbar .navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus {
-    filter: brightness(60%);
-}
-
-.welcome-text-box {
+.home-text-box {
   position: absolute;
   text-align: center;
   left: 50%;
@@ -48,7 +27,7 @@
   top: 30%;
 }
 
-.welcome-text-header {
+.home-text-header {
   font-family: serif;
   color: white;
   font-weight: 110;
@@ -59,7 +38,7 @@
   margin-bottom: 15px;
 }
 
-.welcome-text {
+.home-text {
   color: white;
   font-weight: 500;
   font-size: 70px;
@@ -67,46 +46,45 @@
   width: 900px;
 }
 
-.welcome-about-me-photo-container {
+.home-about-me-photo-container {
   border: 1px dotted black;
-  position: relative;
   float: right;
-  width: 45%;
-  height: auto;
+  width: 50%;
+  height: 100%;
   filter: brightness(90%);
 }
 
-.welcome-about-me-photo {
+.home-about-me-photo {
   padding: 20px;
   width: 100%;
   height: 100%;
 }
 
-.welcome-about-me-container {
+.home-about-me-container {
   position: relative;
-  top: -120px;
+  // top: -120px;
   background-color: white;
   overflow: hidden;
   padding: 20px;
+  height: 600px;
 }
 
-.welcome-about-me-text {
-  position: relative;
-  top: 40px;
-  vertical-align: middle;
-  left: 40px;
+.home-about-me-text {
+  display: inline-block;
+  margin-top: 100px;
+  padding: 40px;
   float: left;
-  width: 45%;
+  width: 50%;
   height: auto;
 }
 
-.welcome-about-me-header {
+.home-about-me-header {
   text-align: left;
   font-size: 46px;
   font-family: "Palatino Linotype";
 }
 
-.welcome-about-me-body {
+.home-about-me-body {
   padding-top: 20px;
   text-align: left;
   font-size: 17px;
@@ -118,7 +96,7 @@
 
 .about-me {
   position: relative;
-  top: -120px;
+  // top: -120px;
   background-color: #e6e6e6;
   height: 590px;
 }
@@ -148,14 +126,14 @@
 .home-photos1 {
   position: relative;
   overflow: hidden;
-  top: -120px;
+  // top: -120px;
   padding: 2.5px 2.5px 0px 2.5px;
 }
 
 .home-photos2 {
   position: relative;
   overflow: hidden;
-  top: -120px;
+  // top: -120px;
   padding: 0px 2.5px 2.5px 2.5px;
 }
 
@@ -175,7 +153,7 @@
 
 .home-resume {
   position: relative;
-  top: -120px;
+  // top: -120px;
   background-color: #e6e6e6;
   height: 480px;
   margin-bottom: -120px;

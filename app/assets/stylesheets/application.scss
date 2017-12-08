@@ -17,3 +17,23 @@
  // li {
  //   font-size: 18px;
  // }
+
+ .navbar {
+   margin-left: 20px;
+   z-index: 1 !important;
+ }
+
+ .navbar .navbar-nav > li > a {
+   background-color: transparent !important;
+   position: relative;
+   margin-top: 20px;
+   margin-right: 15px;
+   color: white;
+   font-size: 25px;
+   font-weight: 100;
+ }
+
+ .navbar .navbar-nav > li > a:hover,
+ .navbar-nav > li > a:focus {
+     filter: brightness(60%);
+ }

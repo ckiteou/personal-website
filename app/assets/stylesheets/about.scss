@@ -1,30 +1,23 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.container-fluid {
-  padding: 0 !important;
+.about-container-main {
+  position: relative;
+  top: -100px;
+  margin-bottom: -120px;
 }
 
 .header-container {
   position: relative;
-  top: -100px;
-  overflow: hidden;
 }
 
-.header-photo-container {
-  float: left;
+.cruise-flight-photo {
   width: 100%;
   height: auto;
   filter: brightness(60%);
 }
 
-.cruise-flight-photo {
-  width: 100%;
-  height: 100%;
-}
-
 .about-header-container {
-  top: 340px;
   position: absolute;
   text-align: center;
   left: 50%;
@@ -55,35 +48,35 @@
 }
 
 .about-a-few-interesting-facts-about-me {
-  top: -100px;
+  // top: -100px;
   position: relative;
   height: 400px;
   background-color: #e6e6e6;
 }
 
 .about-a-little-bit-more-about-me {
-  top: -100px;
+  // top: -100px;
   position: relative;
   height: 550px;
   background-color: white;
 }
 
 .about-aviation {
-  top: -100px;
+  // top: -100px;
   position: relative;
   height: 520px;
   background-color: white;
 }
 
 .about-travelling {
-  top: -100px;
+  // top: -100px;
   position: relative;
   height: 590px;
   background-color: white;
 }
 
 .about-contact {
-  top: -100px;
+  // top: -100px;
   position: relative;
   height: 450px;
   background-color: #e6e6e6;
@@ -91,7 +84,7 @@
 }
 
 .about-future {
-  top: -100px;
+  // top: -100px;
   position: relative;
   height: 560px;
   background-color: white;
@@ -148,7 +141,7 @@
 }
 
 .photos {
-  top: -100px;
+  // top: -100px;
   position: relative;
   overflow: hidden;
   margin-bottom: 0px;
