@@ -66,13 +66,6 @@
   text-transform: uppercase;
   width: 900px;
 }
-.welcome-about-me-container {
-  position: relative;
-  top: -120px;
-  background-color: white;
-  overflow: hidden;
-  padding: 20px;
-}
 
 .welcome-about-me-photo-container {
   border: 1px dotted black;
@@ -89,9 +82,18 @@
   height: 100%;
 }
 
+.welcome-about-me-container {
+  position: relative;
+  top: -120px;
+  background-color: white;
+  overflow: hidden;
+  padding: 20px;
+}
+
 .welcome-about-me-text {
   position: relative;
-  top: 140px;
+  top: 40px;
+  vertical-align: middle;
   left: 40px;
   float: left;
   width: 45%;

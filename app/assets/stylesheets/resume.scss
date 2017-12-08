@@ -1,0 +1,82 @@
+// Place all the styles related to the resume controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.resume-container-main {
+  position: relative;
+  top: -120px;
+  margin-bottom: -120px;
+}
+
+.resume-header-container-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.resume-computer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  filter: brightness(30%);
+}
+
+.resume-header-container {
+  top: 340px;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 40%;
+}
+
+.resume-header-main {
+  font-size: 50px;
+  border-bottom: 1px solid black;
+  height: 70px;
+}
+
+.resume-header-header {
+  font-family: serif;
+  color: white;
+  font-weight: 110;
+  font-size: 26px;
+  font-style: italic;
+  text-align: center;
+  margin: auto;
+  width: 900px;
+  margin-bottom: 15px;
+}
+
+.resume-header-body {
+  color: white;
+  font-weight: 500;
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  width: 900px;
+}
+
+.resume-container {
+  font-family: "Palatino Linotype";
+  position: relative;
+  height: auto;
+  margin: 100px;
+}
+
+.resume-body {
+  font-size: 20px;;
+  margin-bottom: 40px;
+}
+
+.resume-business-titles {
+  font-style: italic;
+}
+
+.resume-sunheadings {
+  font-weight: bold;
+}
+
+.resume-header {
+  border-bottom: 1px solid black;
+  height: 50px;
+}
