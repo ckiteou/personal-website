@@ -1,0 +1,80 @@
+// Place all the styles related to the portfolio controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.makers-team-container {
+  position: relative;
+  height: auto;
+  top: -120px;
+  filter: brightness(30%);
+}
+
+.makers-team {
+  width: 100%;
+}
+
+.portfolio-header-container {
+  top: 340px;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 40%;
+}
+
+.portfolio-header-header {
+  font-family: serif;
+  color: white;
+  font-weight: 110;
+  font-size: 26px;
+  font-style: italic;
+  text-align: center;
+  margin: auto;
+  width: 900px;
+  margin-bottom: 15px;
+}
+
+.portfolio-header-body {
+  color: white;
+  font-weight: 500;
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  width: 900px;
+}
+
+.portfolio-container {
+  font-family: "Palatino Linotype";
+  position: relative;
+  top: -120px;
+  height: 800px;
+}
+
+.catastrophe-container {
+  height: 600px;
+  margin: 60px 120px 0 120px;
+}
+
+.catastrophe-screenshot {
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.catastrophe-description {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.catastrophe-play-link {
+  font-size: 18px;
+}
+
+.catastrophe-source-code {
+  font-size: 18px;
+}
+
+.catastrophe-play-link-container {
+  margin-bottom: -10px;
+}
