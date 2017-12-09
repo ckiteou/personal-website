@@ -4,18 +4,9 @@
     <title>Costas Kiteou</title>
     <%= csrf_meta_tags %>
     <%= favicon_link_tag 'favicon.png' %>
-    <script src="js/jquery.min.js"></script>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script>
-   $(function() {
-        $('#nav-link li a').click(function() {
-           $('#nav-link li').removeClass();
-           $($(this).attr('href')).addClass('active');
-        });
-     });
-  </script>
   </head>
 
   <body>
@@ -24,15 +15,15 @@
           <div class="container-fluid">
               <div class="collapse navbar-collapse navbar-menubuilder">
                   <ul class="nav navbar-nav navbar-left">
-                    <li><a class="nav-link" id='home'  href="/">Home</a>
+                    <li><a class="nav-link" href="/">Home</a>
                       </li>
-                      <li><a class="nav-link" id='about' href="/about">About</a>
+                      <li><a class="nav-link" href="/about">About</a>
                       </li>
-                      <li><a class="nav-link" id='portfolio' href="/portfolio">Portfolio</a>
+                      <li><a class="nav-link" href="/portfolio">Portfolio</a>
                       </li>
-                      <li><a class="nav-link" id='resume'  href="/resume">Resume</a>
+                      <li><a class="nav-link" href="/resume">Resume</a>
                       </li>
-                      <li><a class="nav-link" id='contact'  href="/contact">Contact</a>
+                      <li><a class="nav-link" href="/contact">Contact</a>
                       </li>
                   </ul>
               </div>
