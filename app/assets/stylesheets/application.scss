@@ -22,6 +22,10 @@
    min-width: 1000px;
  }
 
+ .clicked-class {
+   color: green;
+ }
+
  .navbar {
    margin-left: 20px;
    z-index: 1 !important;
@@ -40,6 +44,10 @@
  .navbar .navbar-nav > li > a:hover,
  .navbar-nav > li > a:focus {
      filter: brightness(60%);
+ }
+
+ .active {
+   filter: brightness(60%);
  }
 
  .footer-container {
