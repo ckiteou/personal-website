@@ -33,7 +33,6 @@ label {
   float: left;
   width: 49%;
   height: auto;
-  // margin-left: 5px;
 }
 
 .surname_field input {
@@ -45,6 +44,8 @@ label {
 .email {
   margin-top: 100px;
 }
+
+.email-comment { display: inline;}
 
 .email_field input {
   box-sizing: border-box;
