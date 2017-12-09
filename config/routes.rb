@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
   get 'aviation_photos/index'
-
-  get 'portfolio/index'
-
   get 'home/index'
   root 'home#index'
   # get 'contact', to: 'messages#new', as: 'contact'

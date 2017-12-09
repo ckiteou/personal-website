@@ -22,10 +22,6 @@
    min-width: 1000px;
  }
 
- .clicked-class {
-   color: green;
- }
-
  .navbar {
    margin-left: 20px;
    z-index: 1 !important;
@@ -47,7 +43,7 @@
  }
 
  .active {
-   filter: brightness(60%);
+   filter: brightness(50%);
  }
 
  .footer-container {

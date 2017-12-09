@@ -15,15 +15,15 @@
           <div class="container-fluid">
               <div class="collapse navbar-collapse navbar-menubuilder">
                   <ul class="nav navbar-nav navbar-left">
-                    <li><a class="nav-link" href="/">Home</a>
+                    <li><a class="<%= current_page?(root_path) ? 'active' : 'nav-link' %>" href="/">Home</a>
+                    </li>
+                      <li><a class="<%= current_page?(about_index_path) ? 'active' : 'nav-link' %>" href="/about">About</a>
                       </li>
-                      <li><a class="nav-link" href="/about">About</a>
+                      <li><a class="<%= current_page?(portfolio_index_path) ? 'active' : 'nav-link' %>" href="/portfolio">Portfolio</a>
                       </li>
-                      <li><a class="nav-link" href="/portfolio">Portfolio</a>
+                      <li><a class="<%= current_page?(resume_index_path) ? 'active' : 'nav-link' %>" href="/resume">Resume</a>
                       </li>
-                      <li><a class="nav-link" href="/resume">Resume</a>
-                      </li>
-                      <li><a class="nav-link" href="/contact">Contact</a>
+                      <li><a class="<%= current_page?(contact_index_path) ? 'active' : 'nav-link' %>" href="/contact">Contact</a>
                       </li>
                   </ul>
               </div>
@@ -40,15 +40,15 @@
           <div class="container-fluid">
               <div class="collapse navbar-collapse navbar-menubuilder">
                   <ul class="nav navbar-nav">
-                    <li><a class="nav-link" href="/">Home</a>
+                    <li><a class="<%= current_page?(root_path) ? 'active' : 'nav-link' %>" href="/">Home</a>
+                    </li>
+                      <li><a class="<%= current_page?(about_index_path) ? 'active' : 'nav-link' %>" href="/about">About</a>
                       </li>
-                      <li><a class="nav-link" href="/about">About</a>
+                      <li><a class="<%= current_page?(portfolio_index_path) ? 'active' : 'nav-link' %>" href="/portfolio">Portfolio</a>
                       </li>
-                      <li><a class="nav-link" href="/portfolio">Portfolio</a>
+                      <li><a class="<%= current_page?(resume_index_path) ? 'active' : 'nav-link' %>" href="/resume">Resume</a>
                       </li>
-                      <li><a class="nav-link" href="/resume">Resume</a>
-                      </li>
-                      <li><a class="nav-link" href="/contact">Contact</a>
+                      <li><a class="<%= current_page?(contact_index_path) ? 'active' : 'nav-link' %>" href="/contact">Contact</a>
                       </li>
                   </ul>
               </div>
