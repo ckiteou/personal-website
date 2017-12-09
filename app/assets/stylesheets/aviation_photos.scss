@@ -1,0 +1,53 @@
+// Place all the styles related to the aviation_photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar-border {
+  height: 120px;
+  background-color: black;
+}
+
+.aviation-photos-container-main {
+  position: relative;
+  top: -120px;
+  margin-bottom: -80px;
+  font-family: "Palatino Linotype";
+}
+
+.avaiation-photos-description {
+  padding: 40px;
+  position: relative;
+  margin: auto;
+  width: 1190px;
+  text-align: center;
+}
+
+.aviation-photos-text-body {
+  font-size: 20px;
+}
+
+.leo-davinci-quote {
+  margin: auto;
+  width: 600px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.aviation-photos {
+  padding: 20px 10px 0 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.aviation-photo-container {
+  float: left;
+  width: 33.33%;
+  height: auto;
+  text-align: center;
+  padding: 0 20px 0 0;
+}
+
+.aviation-photo {
+  width: 100%;
+  height: 100%;
+}

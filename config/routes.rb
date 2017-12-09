@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'aviation_photos/index'
+
   get 'portfolio/index'
 
   get 'home/index'
@@ -11,5 +13,6 @@ Rails.application.routes.draw do
   end
   resources :portfolio
   resources :resume
+  resources :aviation_photos
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
